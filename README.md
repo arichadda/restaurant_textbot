@@ -8,12 +8,14 @@ This textbot pipeline using the `Google Cloud Places API` to locate the best res
 The text-based medium allows for greater cross-platform generalizability without restrictions on data usage that may prevent users from using an app or the internet.
 
 ### How To
-To access this project, please text `+1-(619)-586-6087`. 
+To access this project, please text `+1-(202)-866-2767`. 
 
 The query syntax is simply: `[CITY] [STATE ABBREV] [MAX # RESULTS]`. For example: `Washington DC 10`. 
 
 `[CITY]` is any US city name. E.g. San Francisco, Bethesda, Nashville.
+
 `[STATE ABBREV]` is any US state abreviation. E.g. CA, MD, TN.
+
 `[MAX # RESULTS]` is any number between 1 and 20 (max for to prevent bloated runtimes). 
 
 An example output for Washington DC can be seen below. 
