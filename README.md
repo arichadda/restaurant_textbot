@@ -1,8 +1,15 @@
-# Textbot for Top Resturants in a City 
+# Text2Food - A Textbot for Top Resturants in a City 
 ### Ari Chadda and Suraj Srivats 
 ### Dartmouth College - 11/8/20
 
-This project for the 2020 Mount Holyoke Hackathon involves using `twilio` and `Flask` to create and deploy a textbot which can be accessed at the number `202-866-2767`. 
+
+### Why Text2Food - A 2020 Mount Holyoke Hackathon Project
+This textbot pipeline using the `Google Cloud Places API` to locate the best restaurants in any city. This implementation harnesses `twilio` and `Flask` and is a proof of concept for a larger project that enables a full suite of text-based features designed to help local restaurants that have been affected by COVID-19. Our goal is for users to interact with local restaurants on a more detail-oriented level that gives both parties the ability to see metrics including a daily customer count, # users ordering in (vs. take out), custom messages from local business owners, etc.
+
+The text-based medium allows for greater cross-platform generalizability without restrictions on data usage that may prevent users from using an app or the internet.
+
+### How To
+To access this project, please text `+1-(619)-586-6087`. 
 
 The query syntax is simply: `[CITY] [STATE ABBREV] [MAX # RESULTS]`. For example: `Washington DC 10`. 
 

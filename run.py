@@ -1,9 +1,11 @@
 from twilio.twiml.messaging_response import MessagingResponse
 from flask import Flask, request
 from Restaurant import Restaurant
+from key_file import key
 import json
 import requests
 import pprint
+
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -20,7 +22,7 @@ def getReply(message):
 
         curr_str += "restaurants"
         max_num_returns = msg_list[-1]
-        js_ = requests.get("https://maps.googleapis.com/maps/api/place/textsearch/json?query=" + curr_str + "&radius=5000&key=AIzaSyDYwAFbxHqg9ZnZnl3cvqac32M7zJzRFl8").json()
+        js_ = requests.get("https://maps.googleapis.com/maps/api/place/textsearch/json?query=" + curr_str + "&radius=5000&key=" + key).json()
         
         parse = []
         rate = {}
