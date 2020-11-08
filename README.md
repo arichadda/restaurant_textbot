@@ -1,7 +1,6 @@
 # Textbot for Top Resturants in a City 
 ### Ari Chadda and Suraj Srivats 
 ### Dartmouth College - 11/8/20
---
 
 This project for the 2020 Mount Holyoke Hackathon involves using `twilio` and `Flask` to create and deploy a textbot which can be accessed at the number `202-866-2767`. 
 
