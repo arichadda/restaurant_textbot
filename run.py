@@ -63,9 +63,13 @@ def getReply(message):
 
             answer = ""
             for i in range(int(max_num_returns)):
+                if i == len(sorted_avg_rank):
+                    answer += '... (exceeded max results)'
+                    break
                 answer += str(i + 1) + ". "
                 answer += str(sorted_avg_rank[i][0])
                 answer += '\n\n'
+                
 
     else:
         answer = "Please use the format: '[CITY] [STATE ABBREV] [MAX # RESULTS]' for example: 'Hanover NH 5'"
