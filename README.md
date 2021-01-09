@@ -16,7 +16,7 @@ The query syntax is simply: `[CITY] [STATE ABBREV] [MAX # RESULTS]`. For example
 
 `[STATE ABBREV]` is any US state abreviation. E.g. CA, MD, TN.
 
-`[MAX # RESULTS]` is any number between 1 and 20 (max for to prevent bloated runtimes). 
+`[MAX # RESULTS]` is any number between 1 and 20 (max to prevent bloated runtimes). 
 
 An example output for Washington DC can be seen below. 
 ```
