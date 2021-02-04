@@ -1,4 +1,4 @@
-# Text2Food - A Textbot for Top Resturants in a City 
+# Text2Food - A Textbot for Top Restaurants in a City 
 ### Ari Chadda and Suraj Srivats 
 
 
